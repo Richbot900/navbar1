@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body .bdn {
+    display: flex;
+}
+
+body .bdn .logo > span {
+    font-size: 56px;
+    padding: 24px 80px;
+}
+
+body .bdn .pages {
+    box-sizing: border-box;
+    display: flex;
+    margin: 8px 0;
+    padding: 37px;
+    width: 100%;   
+}
+
+body .bdn .pages > p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;    
+    justify-content: space-between;
+    padding: 0 14px;
+}
+
+body .bdn .buscar {
+    align-items: center;
+    display: flex;
+    gap: 25px;
+    padding: 0 80px;
+}
+
+body .bdn .buscar .boton1 {
+    background: none;
+    border: 2px solid#333333;
+    border-radius: 5px;
+    justify-content: center;
+    padding: 16px 32px;
+    text-align: center;
+}
+
+body .bdn .buscar .boton2 {
+    background-color: #333333;
+    border: 2px solid#333333;
+    border-radius: 5px;
+    color: #f1f1f1;
+    justify-content: center;
+    padding: 16px 32px;
+    text-align: center;
+}
+
+body .pdp {
+    background: #121212;
+    background-color: solid#121212;
+    height: 550px;
+}
+
+
+body .pdp .logo > span {
+    color: #666666;
+    font-size: 56px;
+    padding: 50px 80px;
+}
+
+body .pdp .infopdp {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 150px;
+}
+
+body .pdp .infopdp .texto {
+    border: 2px #f1f1f1;
+    height: 90px;
+    width: 550px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body .pdp .infopdp .texto > p {
+    color: #f1f1f1;
+    font-size: 16px;
+    height: 80;
+    padding: 24px 80px;
+    width: 467px;
+}
+
+body .pdp .infopdp .texto .inferior {
+    display: flex;
+}
+
+body .pdp .infopdp .texto .inferior .logo > span {
+    color: #666666;
+    font-size: 20px;
+    justify-content: center;
+    padding: 5px 80px;
+    text-align: center
+}
+
+body .pdp .infopdp .texto .inferior .logo > p {
+    color: #f1f1f1;
+    font-size: 12px;
+    padding: 5px 5px;
+    text-align: center;
+}
+
+body .pdp .infopdp .infderecha {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 16px 24px;
+    width: 50%;
+}
+
+
+body .pdp .infopdp .infderecha .products > h1 {
+    color: #f1f1f1;
+    font-size: 24px;
+}
+
+body .pdp .infopdp .infderecha .products > p {
+    color: #f1f1f1;
+    font-size: 12px;
+    padding: 10px 0;
+}
+
+body .pdp .infopdp .infderecha .support > h2 {
+    color: #f1f1f1;
+    font-size: 24px;
+} 
+
+body .pdp .infopdp .infderecha .support > p {
+    color: #f1f1f1;
+    font-size: 12px;
+    padding: 10px 0;
+
+} 
+
+body .pdp .infopdp .infderecha .contact > h3 {
+    color: #f1f1f1;
+    font-size: 24px;
+} 
+
+
+body .pdp .infopdp .infderecha .contact > p {
+    color: #f1f1f1;
+    font-size: 12px;
+    padding: 10px 0;
+
+} 
+
+body .pdp .infopdp .infderecha .contact .logos2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 5px 0px;
+}
+
+body .pdp .infopdp .infderecha .contact .logo2 > span {
+    color: #666666;
+    font-size: 20px;
+}
+
+body .fondo {
+    background: #333333;
+    background-color: solid#333333;
+    color: #f1f1f1;
+    font-size: 13px;
+    height: 50px;
+    padding: 20px 23px;
+    text-align: center;
+}
